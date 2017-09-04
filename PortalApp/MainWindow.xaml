@@ -1,0 +1,21 @@
+﻿<Window x:Class="PortalApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PortalApp"
+        mc:Ignorable="d" Height="350" Width="525" Title="单点登录-统一身份认证 | 小丁工作室">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="79*"/>
+            <ColumnDefinition Width="365*"/>
+            <ColumnDefinition Width="73*"/>
+        </Grid.ColumnDefinitions>
+        <Button x:Name="button" Content="登录" HorizontalAlignment="Left" Margin="281.145,126.977,0,0" VerticalAlignment="Top" Width="75" Click="button_Click" Grid.Column="1" Height="22"/>
+        <Label x:Name="label" Content="账号：" HorizontalAlignment="Left" Margin="2.53,93.759,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.071,-0.756" Grid.Column="1" Height="26" Width="46"/>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="23" Margin="89.398,95.759,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Grid.Column="1"/>
+        <Label x:Name="label1" Content="密码：" HorizontalAlignment="Left" Margin="2.53,142.674,0,0" VerticalAlignment="Top" Grid.Column="1" Height="26" Width="46"/>
+        <TextBox x:Name="textBox1" HorizontalAlignment="Left" Height="23" Margin="89.398,145.674,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Grid.Column="1"/>
+
+    </Grid>
+</Window>

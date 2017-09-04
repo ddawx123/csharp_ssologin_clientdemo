@@ -1,0 +1,14 @@
+C:\Users\Administrator\source\repos\PortalApp\PortalApp\obj\Debug\MainWindow.g.cs
+C:\Users\Administrator\source\repos\PortalApp\PortalApp\obj\Debug\App.g.cs
+C:\Users\Administrator\source\repos\PortalApp\PortalApp\obj\Debug\PortalApp_MarkupCompile.cache
+C:\Users\Administrator\source\repos\PortalApp\PortalApp\obj\Debug\PortalApp_MarkupCompile.lref
+C:\Users\Administrator\source\repos\PortalApp\PortalApp\bin\Debug\PortalApp.exe
+C:\Users\Administrator\source\repos\PortalApp\PortalApp\bin\Debug\PortalApp.pdb
+C:\Users\Administrator\source\repos\PortalApp\PortalApp\obj\Debug\MainWindow.baml
+C:\Users\Administrator\source\repos\PortalApp\PortalApp\obj\Debug\PortalApp.g.resources
+C:\Users\Administrator\source\repos\PortalApp\PortalApp\obj\Debug\PortalApp.Properties.Resources.resources
+C:\Users\Administrator\source\repos\PortalApp\PortalApp\obj\Debug\PortalApp.csproj.GenerateResource.Cache
+C:\Users\Administrator\source\repos\PortalApp\PortalApp\obj\Debug\PortalApp.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\PortalApp\PortalApp\obj\Debug\PortalApp.exe
+C:\Users\Administrator\source\repos\PortalApp\PortalApp\obj\Debug\PortalApp.pdb
+C:\Users\Administrator\source\repos\PortalApp\PortalApp\obj\Debug\PortalApp.csprojResolveAssemblyReference.cache
