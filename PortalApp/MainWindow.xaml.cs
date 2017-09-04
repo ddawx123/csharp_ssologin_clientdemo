@@ -55,7 +55,7 @@ namespace PortalApp
             request.KeepAlive = false;
             request.ProtocolVersion = HttpVersion.Version10;
             String post_data = "username=" + username + "&userpwd=" + password + "&cors_domain=localapp";
-            MessageBox.Show(post_data);
+            //MessageBox.Show(post_data);
             using (StreamWriter dataStream = new StreamWriter(request.GetRequestStream()))
             {
                 dataStream.Write(post_data);
@@ -65,12 +65,13 @@ namespace PortalApp
             string encoding = response.ContentEncoding;
             if (encoding == null || encoding.Length < 1)
             {
-                encoding = "UTF-8"; //默认编码  
+                encoding = "UTF-8"; //设置UTF-8为默认编码  
             }
             StreamReader reader = new StreamReader(response.GetResponseStream(), Encoding.GetEncoding(encoding));
             string retString = reader.ReadToEnd();
             MessageBox.Show(retString);
-            //解析josn
+            //解析josn逻辑
+            //TODO
         }
     }
 }
