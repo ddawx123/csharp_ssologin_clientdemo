@@ -50,7 +50,7 @@ namespace PortalApp
         {
             HttpWebRequest request = (HttpWebRequest)WebRequest.Create("https://passport.dingstudio.cn/sso/api?format=ajaxlogin");
             request.Method = "POST";
-            request.ContentType = "application/json";
+            request.ContentType = "application/x-www-form-urlencoded";
             request.ContentLength = Encoding.UTF8.GetByteCount("username=" + username + "&userpwd=" + password + "&cors_domain=localapp");
             request.KeepAlive = false;
             request.ProtocolVersion = HttpVersion.Version10;
